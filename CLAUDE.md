@@ -16,6 +16,12 @@
 - `npm run lint` — ESLint による静的チェック
 - `npm run build` — 本番用ビルド（`dist/` に出力）
 
+## 公開（GitHub Pages）
+
+- 公開URL: https://sbt-2026.github.io/task-board/
+- `main` に push すると [.github/workflows/deploy.yml](.github/workflows/deploy.yml) が lint・ビルドして自動で公開する
+- 本番ビルドの base パスは `/task-board/`（[vite.config.js](vite.config.js) で設定。開発サーバーは `/` のまま）
+
 ## 作業ルール
 
 - 回答・コメント・コミットメッセージは日本語で書く
