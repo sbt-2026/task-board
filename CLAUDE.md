@@ -5,7 +5,16 @@
 ## プロジェクト概要
 
 - プロジェクト名: task-bord（タスクボードアプリ）
-- 技術スタック: 未定（決まり次第ここに追記する）
+- 技術スタック: React 19 + Vite 6（JavaScript）
+- タスクはブラウザの localStorage（キー: `task-board.tasks`）に保存する
+- 主なファイル: [src/App.jsx](src/App.jsx)（画面とロジック）、[src/App.css](src/App.css)（スタイル）
+
+## よく使うコマンド
+
+- `npm install` — 依存パッケージのインストール
+- `npm run dev` — 開発サーバーの起動
+- `npm run lint` — ESLint による静的チェック
+- `npm run build` — 本番用ビルド（`dist/` に出力）
 
 ## 作業ルール
 
